@@ -122,7 +122,7 @@ public class LiteraryExtractor {
 		int missed = 0;
 		System.out.println("Reading Files ... ");
 		
-		String header= "tweet\tinteraction\turl";
+		String header= "tweet,interaction,url";
 		IOFiles.saveTextFileAppend(header, desPath);
 		for (int f = 0; f < listOfFiles.length; f++) {
 
@@ -151,7 +151,7 @@ public class LiteraryExtractor {
 						tweet = filterEnglish(tweet);
 						if ((howMany = rankHarakat(tweet)) >= N) {
 							
-							String org = tweet + "\t"+score+"\t"+urrl;
+							String org = tweet.replace(",", "") + ","+score+","+urrl;
 						if(!FrequentQuotes.contains(tweet)){
 							possibleQuotes.put(org, howMany);
 							 FrequentQuotes.add(tweet);
@@ -171,9 +171,10 @@ public class LiteraryExtractor {
 				Map.Entry<String, Integer> e = (Map.Entry<String, Integer>) itr
 						.next();
 				String key = (String) e.getKey();
-				int value = (Integer) e.getValue();
+				///key = key.replace(",", "");
+				//int value = (Integer) e.getValue();
 
-				IOFiles.saveTextFileAppend(value + "\t" + key, desPath);
+				IOFiles.saveTextFileAppend(key, desPath);
 			
 			}
 
