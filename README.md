@@ -14,3 +14,6 @@ https://drive.google.com/drive/folders/194wa_q5zvV8NaE0uiPXxYT0knYZx8BlV
 
 
 ![Alt text](https://raw.githubusercontent.com/asalhi/alrawiyah_data_collect/main/barmajan_data2.png?raw=true "Title")
+
+![Alt text](https://raw.githubusercontent.com/asalhi/alrawiyah_data_collect/main/info_about_data2.png?raw=true "Title")
+
