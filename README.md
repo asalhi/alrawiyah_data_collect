@@ -8,6 +8,8 @@ https://colab.research.google.com/drive/1zxHYbJkMcVvQMcdnN8NwiLK44Tyo7dGP?usp=sh
 
 جميع البيانات التي تم سحبها تجدونها هنا :
 
+https://www.kaggle.com/datasets/asalhi/alrawiyah
+
 https://drive.google.com/drive/folders/194wa_q5zvV8NaE0uiPXxYT0knYZx8BlV
 
 
